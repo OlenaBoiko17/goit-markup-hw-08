@@ -14,20 +14,24 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    // color:  #000000;
+    
     margin-right: 93px;
     
         
 }
 
-// .footer-logo-link {
-//     font-family: Raleway, sans-serif;
-//     font-weight: 700;
-//     font-size: 26px;
-//     line-height: 1.19;
-//     letter-spacing: 0.03em;
-//     color: var(--accent-color);
-// }
+.footer-logo_link {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    @include mobile {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 .footer_logo {
     font-family: Raleway, sans-serif;
@@ -35,7 +39,10 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    // color: #FFFFFF;
+    @include mobile {
+        display: flex;
+        justify-content: center;
+    }
     
     
 } 
