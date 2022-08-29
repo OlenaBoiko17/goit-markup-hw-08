@@ -4,21 +4,36 @@
     // padding-bottom: 200px;
     padding: 118px 60px;
     
+    // background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+    // url(../images/fon.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
-    url(../images/fon.jpg); 
+    url(../images/mobilefon.jpg);  
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    // max-width: 1600px;
-    width: 480px;
+    
+    max-width: 480px;
     height: 400px;
-    margin: 0 auto;
+    
+
+    @include mobile {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+    url(../images/mobilefon.jpg); 
+    }
     @include tablet {
         padding: 118px 204px;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+    url(../images/tabletfon.jpg);
+    max-width: 768px;
     }
     @include desktop {
         padding-top: 200px;
         padding-bottom: 200px;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+    url(../images/fon.jpg);
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
     }
 }
 
@@ -36,16 +51,21 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    width: 300px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
+    @include mobile {
+        width: 360px;
+    }
+
     @include tablet {
         width: 360px;
     }
+
     @include desktop {
-        width: 696px;
         font-size: 44px;
         line-height: 1.36;
+        width: 696px;
     }
     
     
