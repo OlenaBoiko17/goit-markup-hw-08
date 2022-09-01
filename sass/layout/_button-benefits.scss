@@ -4,14 +4,23 @@
     &__list {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 8px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
+        @media screen and (min-width:767px) {
+            justify-content: center;
+        }
+        @include desktop {
+            margin-bottom: 50px;
+        }
     }
+
+   
+
     @include desktop {
         padding-top: 94px;
         padding-bottom: 94px;
-        
+        margin-bottom: 50px;
         
         
     }
