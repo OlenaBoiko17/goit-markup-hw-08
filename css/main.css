@@ -77,12 +77,12 @@ body {
 }
 @media screen and (min-width: 480px) {
   .container {
-    width: 450px;
+    width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 738px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -884,7 +884,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .menu-icon_wrap {
-    width: 334px;
+    width: 354px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -923,9 +923,6 @@ body {
   width: 100%;
 }
 
-.wedoing {
-  padding-top: 0;
-}
 @media screen and (max-width: 1199px) {
   .wedoing {
     display: none;
@@ -933,7 +930,6 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .wedoing {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -1071,8 +1067,8 @@ body {
 }
 
 .wrapper {
-  padding-top: 16px;
-  padding-bottom: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
   .wrapper {
@@ -1455,7 +1451,6 @@ body {
   .button-benefits {
     padding-top: 94px;
     padding-bottom: 94px;
-    margin-bottom: 50px;
   }
 }
 

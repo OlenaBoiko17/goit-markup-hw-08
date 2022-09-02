@@ -1,12 +1,10 @@
 .wedoing {
-    padding-top: 0;
     
-   
     @media screen and (max-width:1199px) {
         display: none;
     }
     @include desktop {
-        padding-top: 94px;
+        
         padding-bottom: 94px;
     }
 }
